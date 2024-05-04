@@ -1,0 +1,474 @@
+body {
+    margin: 0;
+}
+
+header.home {
+    background-color: #573CFF;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+header.artisti {
+    background-color: #FE4444;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+header.mostra {
+    background-color: #10E458;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+header.info {
+    background-color: #FFE713;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+section.data-container {
+    background-color: #573CFF;
+    color: #fff;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    max-width: 450px;
+    margin-left: auto;
+    padding: 10px 0px 10px 20px;
+    position: sticky;
+    top: 100px;
+}
+
+section.data-container h1 {
+    font-size: 40px;
+    margin: auto;
+}
+
+section.data-container p {
+    font-size: 16px;
+    margin: auto;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.black:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav ul {
+    gap: 64px;
+}
+
+footer nav ul {
+    gap: 64px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.black {
+    color: #000;
+    text-decoration: none;
+}
+
+p.abact {
+    color: #fff;
+}
+
+hr.solidblue {
+    max-width: 700px;
+    border: 3px solid #573CFF;
+}
+
+hr.solidred {
+    max-width: 700px;
+    border: 3px solid #FE4444;
+}
+
+hr.solidgreen {
+    max-width: 700px;
+    border: 3px solid #10E458;
+}
+
+hr.solidyellow {
+    max-width: 700px;
+    border: 3px solid #FFE713;
+}
+
+section.heroblue {
+    color: #573CFF;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+section.herored {
+    color: #FE4444;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+section.herogreen {
+    color: #10E458;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+section.heroyellow {
+    color: #FFE713;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+section.titoloparagrafo {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Noto Serif";
+    font-size: 22px;
+    color: #573CFF;
+}
+
+section.paragrafo {
+    margin: left;
+    max-width: 632px;
+    font-size: 18px;
+    font-family: "Albert Sans";
+    font-weight: normal;
+    padding-left: 350px;
+}
+
+section.artisti {
+    margin: left;
+    max-width: 632px;
+    font-size: 18px;
+    font-family: "Albert Sans";
+    font-weight: normal;
+    padding-left: 350px;
+}
+
+section.laboratorio-creativo {
+    margin: left;
+    max-width: 632px;
+    font-size: 18px;
+    font-family: "Albert Sans";
+    font-weight: normal;
+    padding-left: 350px;
+    padding-bottom: 100px;
+}
+
+section.inaugurazione {
+    margin: left;
+    max-width: 632px;
+    font-size: 18px;
+    font-family: "Albert Sans";
+    font-weight: normal;
+    padding-left: 350px;
+}
+
+section.title-info-mostra {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Noto Serif";
+    font-size: 22px;
+    color: #10E458;
+    padding-top: 100px;
+}
+
+section.info-mostra {
+    margin: left;
+    max-width: 632px;
+    font-size: 18px;
+    font-family: "Albert Sans";
+    font-weight: normal;
+    padding-left: 350px;
+    display: grid;
+    grid-template-columns: 632px repeat(2,1fr);
+    gap: 230px;
+    padding-bottom: 100px;
+}
+
+section.info-mostra img {
+    width: 320px;
+    padding: 20px;
+}
+
+div.image-container {
+    margin-top: -520px;
+}
+
+section.title-maps {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Noto Serif";
+    font-size: 22px;
+    color: #FFE713;
+}
+
+section.maps {
+    margin: auto;
+    max-width: 1550px;
+    font-size: 18px;
+    font-family: "Albert Sans";
+    font-weight: normal;
+    padding-left: 350px;
+    display: flex;
+    text-align: right;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+section.maps img {
+    width: 50%;
+}
+
+section.title-sliding-cards {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Noto Serif";
+    font-size: 22px;
+    color: #573CFF;
+    padding-top: 100px;
+}
+
+section.home-sliding-cards div.card-container {
+    margin: auto;
+    max-width: 1200px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-family: "Noto Serif";
+    color: #573CFF;
+    font-weight: normal;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 52px;
+}
+
+section.home-sliding-cards div.card {
+    margin: auto;
+    gap: 40px;
+    padding: 10px;
+}
+
+section.home-sliding-cards div.card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+svg {
+    width: 50px;
+    margin: auto;
+}
+
+section.art-sliding-cards div.card-container {
+    margin: auto;
+    max-width: 1200px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: "Noto Serif";
+    color: #FE4444;
+    font-weight: normal;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 200px;
+}
+
+section.art-sliding-cards div.cardred {
+    margin: auto;
+    gap: 40px;
+    padding: 10px;
+}
+
+section.art-sliding-cards div.cardred img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+section.title-art-sliding-cards {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Noto Serif";
+    font-size: 22px;
+    color: #FE4444;
+    padding-top: 100px;
+}
+
+div.cardred {
+    background-color: #fff;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color: #FE4444;
+}
+
+div.card {
+    background-color: #fff;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color: #573CFF
+}
+
+a.cards {
+    color: #573CFF;
+}
+
+a.cardsred {
+    color: #FE4444;
+}
+
+div.card:hover {
+    background-color: #573CFF;
+    color: #fff;
+}
+
+div.cardred:hover {
+    background-color: #FE4444;
+    color: #fff;
+}
+
+section.image-container div.image-list img {
+    margin: auto;
+    object-fit: cover;
+    width: 296px;
+    height: 369px;
+    padding-top: 20px;
+}
+
+div.image-list {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1370px;
+    padding-bottom: 100px;
+}
+
+footer.home {
+    background-color: #573CFF;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    gap: 64px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+footer.artisti {
+    background-color: #FE4444;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    gap: 64px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+footer.mostra {
+    background-color: #10E458;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    gap: 64px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+footer.info {
+    background-color: #FFE713;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 24px;
+    max-width: auto;
+    margin: auto;
+    gap: 64px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+}
