@@ -83,7 +83,19 @@ header ul {
     margin-top: 40px;
 }
 
-a:hover {
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p:hover {
     text-decoration: underline;
 }
 
@@ -388,13 +400,16 @@ a.cardsred {
 div.card:hover {
     background-color: #573CFF;
     color: #fff;
-    transition: all 0.3s ease;
+    transition: all 0.3s;
 }
+
 
 div.cardred:hover {
     background-color: #FE4444;
     color: #fff;
+    transition: all 0.3s ease;
 }
+
 
 section.image-container div.image-list img {
     margin: auto;
