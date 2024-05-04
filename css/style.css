@@ -388,6 +388,7 @@ a.cardsred {
 div.card:hover {
     background-color: #573CFF;
     color: #fff;
+    transition: all 0.3s ease;
 }
 
 div.cardred:hover {
