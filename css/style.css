@@ -309,18 +309,27 @@ section.home-sliding-cards div.card-container {
     margin: auto;
     max-width: 1200px;
     font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    object-fit: cover;
     font-family: "Noto Serif";
     color: #573CFF;
     font-weight: normal;
     padding-top: 100px;
     padding-bottom: 100px;
-    gap: 52px;
+}
+
+div.swiper-wrapper {
+    max-width: 2000px
 }
 
 section.home-sliding-cards div.card {
     margin: auto;
+    gap: 40px;
+    padding: 10px;
+}
+
+section.home-sliding-cards div.card-container a {
+    margin: auto;
+    max-width: 280px;
     gap: 40px;
     padding: 10px;
 }
@@ -330,11 +339,6 @@ section.home-sliding-cards div.card img {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-}
-
-svg {
-    width: 50px;
-    margin: auto;
 }
 
 section.art-sliding-cards div.card-container {
@@ -483,7 +487,10 @@ footer.info {
     padding-right: 350px;
 }
 
-
+html,body{
+    overflow-x: hidden;
+    overflow-x: clip !important;
+}
 
 @media screen and (max-width: 600px) {
 
