@@ -9,10 +9,10 @@ header.home {
     font-family: "Noto Serif";
     font-weight: bold;
     font-size: 24px;
-    max-width: auto;
+    max-width: 100%;
     margin: auto;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header.artisti {
@@ -24,8 +24,8 @@ header.artisti {
     font-size: 24px;
     max-width: auto;
     margin: auto;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header.mostra {
@@ -37,8 +37,8 @@ header.mostra {
     font-size: 24px;
     max-width: auto;
     margin: auto;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header.info {
@@ -50,8 +50,8 @@ header.info {
     font-size: 24px;
     max-width: auto;
     margin: auto;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section.data-container {
@@ -204,40 +204,44 @@ section.titoloparagrafo {
 }
 
 section.paragrafo {
-    margin: left;
+    margin: auto;
     max-width: 632px;
     font-size: 18px;
     font-family: "Albert Sans";
     font-weight: normal;
-    padding-left: 350px;
+    position: relative;
+    right: 285px;
 }
 
 section.artisti {
-    margin: left;
+    margin: auto;
     max-width: 632px;
     font-size: 18px;
     font-family: "Albert Sans";
     font-weight: normal;
-    padding-left: 350px;
+    position: relative;
+    right: 285px;
 }
 
 section.laboratorio-creativo {
-    margin: left;
+    margin: auto;
     max-width: 632px;
     font-size: 18px;
     font-family: "Albert Sans";
     font-weight: normal;
-    padding-left: 350px;
+    position: relative;
+    right: 285px;
     padding-bottom: 100px;
 }
 
 section.inaugurazione {
-    margin: left;
+    margin: auto;
     max-width: 632px;
     font-size: 18px;
     font-family: "Albert Sans";
     font-weight: normal;
-    padding-left: 350px;
+    position: relative;
+    right: 285px;
 }
 
 section.title-info-mostra {
@@ -280,20 +284,16 @@ section.title-maps {
 }
 
 section.maps {
-    margin: auto;
-    max-width: 1550px;
     font-size: 18px;
     font-family: "Albert Sans";
     font-weight: normal;
-    padding-left: 350px;
-    display: flex;
-    text-align: right;
     gap: 40px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
-section.maps img {
-    width: 50%;
+iframe {
+    width: 100%;
 }
 
 section.title-sliding-cards {
@@ -335,7 +335,7 @@ section.home-sliding-cards div.card-container a {
 }
 
 section.home-sliding-cards div.card img {
-    width: 250px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
@@ -352,12 +352,18 @@ section.art-sliding-cards div.card-container {
     font-weight: normal;
     padding-top: 100px;
     padding-bottom: 100px;
-    gap: 200px;
+    gap: 50px;
+}
+
+section.art-sliding-cards div.card-container a {
+    margin: auto;
+    max-width: 280px;
+    gap: 40px;
+    padding: 10px;
 }
 
 section.art-sliding-cards div.cardred {
     margin: auto;
-    gap: 40px;
     padding: 10px;
 }
 
@@ -441,8 +447,8 @@ footer.home {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer.artisti {
@@ -455,8 +461,8 @@ footer.artisti {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer.mostra {
@@ -469,8 +475,8 @@ footer.mostra {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer.info {
@@ -483,8 +489,8 @@ footer.info {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 html,body{
@@ -493,5 +499,5 @@ html,body{
 }
 
 @media screen and (max-width: 600px) {
-
+    
 }
