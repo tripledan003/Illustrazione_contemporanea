@@ -254,12 +254,11 @@ section.title-info-mostra {
 }
 
 section.info-mostra {
-    margin: left;
-    max-width: 632px;
+    margin: auto;
+    max-width: 1200px;
     font-size: 18px;
     font-family: "Albert Sans";
     font-weight: normal;
-    padding-left: 350px;
     display: grid;
     grid-template-columns: 632px repeat(2,1fr);
     gap: 230px;
@@ -493,11 +492,37 @@ footer.info {
     padding-right: 20px;
 }
 
-html,body{
-    overflow-x: hidden;
-    overflow-x: clip !important;
-}
+@media screen and (max-width: 800px) {
 
-@media screen and (max-width: 600px) {
-    
+    section.paragrafo {
+        padding: 30px;
+        right: 0px;
+        font-size: 14px;
+    }
+
+    section.artisti {
+        padding: 30px;
+        right: 0px;
+        font-size: 14px;
+    }
+
+    section.inaugurazione {
+        padding: 30px;
+        right: 0px;
+        font-size: 14px;
+    }
+
+    section.info-mostra {
+        padding: 30px;
+        right: 0px;
+        font-size: 14px;
+        padding-bottom: 0px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    section.info-mostra div.image-container {
+        padding-top: 300px;
+        margin-left: auto;
+    }
 }
