@@ -11,8 +11,8 @@ header.home {
     font-size: 24px;
     max-width: 100%;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header.artisti {
@@ -24,8 +24,8 @@ header.artisti {
     font-size: 24px;
     max-width: auto;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header.mostra {
@@ -37,8 +37,8 @@ header.mostra {
     font-size: 24px;
     max-width: auto;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header.info {
@@ -50,8 +50,8 @@ header.info {
     font-size: 24px;
     max-width: auto;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 section.data-container {
@@ -59,7 +59,7 @@ section.data-container {
     color: #fff;
     font-family: "Noto Serif";
     font-weight: bold;
-    max-width: 450px;
+    max-width: 300px;
     margin-left: auto;
     padding: 10px 0px 10px 20px;
     position: sticky;
@@ -213,6 +213,15 @@ section.paragrafo {
     right: 285px;
 }
 
+section.title-art-sliding-cards {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Noto Serif";
+    font-size: 22px;
+    color: #FE4444;
+    padding-top: 100px;
+}
+
 section.artisti {
     margin: auto;
     max-width: 632px;
@@ -304,26 +313,17 @@ section.title-sliding-cards {
     padding-top: 100px;
 }
 
+/* Blue card */
+
 section.home-sliding-cards div.card-container {
     margin: auto;
     max-width: 1200px;
     font-size: 20px;
-    object-fit: cover;
     font-family: "Noto Serif";
-    color: #573CFF;
     font-weight: normal;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-div.swiper-wrapper {
-    max-width: 2000px
-}
-
-section.home-sliding-cards div.card {
-    margin: auto;
-    gap: 40px;
-    padding: 10px;
+    gap: 50px;
 }
 
 section.home-sliding-cards div.card-container a {
@@ -333,12 +333,19 @@ section.home-sliding-cards div.card-container a {
     padding: 10px;
 }
 
+section.home-sliding-cards div.card {
+    margin: auto;
+    padding: 10px;
+}
+
 section.home-sliding-cards div.card img {
-    width: 100%;
+    width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
+
+/* Red card */
 
 section.art-sliding-cards div.card-container {
     margin: auto;
@@ -373,14 +380,7 @@ section.art-sliding-cards div.cardred img {
     border-radius: 10px;
 }
 
-section.title-art-sliding-cards {
-    margin: auto;
-    max-width: 1200px;
-    font-family: "Noto Serif";
-    font-size: 22px;
-    color: #FE4444;
-    padding-top: 100px;
-}
+/* fine card */
 
 div.cardred {
     background-color: #fff;
@@ -409,7 +409,7 @@ a.cardsred {
 div.card:hover {
     background-color: #573CFF;
     color: #fff;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 
@@ -446,8 +446,8 @@ footer.home {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 footer.artisti {
@@ -460,8 +460,8 @@ footer.artisti {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 footer.mostra {
@@ -474,8 +474,8 @@ footer.mostra {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 footer.info {
@@ -492,30 +492,80 @@ footer.info {
     padding-right: 20px;
 }
 
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 @media screen and (max-width: 800px) {
+
+/* Homepage */
+
+    section.heroblue {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+
+    section.data-container {
+        max-width: 150px;
+        position: static;
+    }
+    
+    section.titoloparagrafo {
+        font-size: 20px;
+        padding-left: 30px;
+    }
 
     section.paragrafo {
         padding: 30px;
         right: 0px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
+    section.title-sliding-cards {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+
+
+/* Artisti */
+
+    section.herored {
+        font-size: 28px;
+        padding: 30px;
+    }
+ 
     section.artisti {
         padding: 30px;
         right: 0px;
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    section.title-art-sliding-cards {
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    section.art-sliding-cards div.card-container {
+        display: grid;
+        max-width: 600px;
+        grid-template-columns: repeat(2,1fr);
     }
 
     section.inaugurazione {
         padding: 30px;
         right: 0px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     section.info-mostra {
         padding: 30px;
         right: 0px;
-        font-size: 14px;
+        font-size: 16px;
         padding-bottom: 0px;
         display: grid;
         grid-template-columns: auto;
@@ -526,3 +576,13 @@ footer.info {
         margin-left: auto;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    section.art-sliding-cards div.card-container {
+        display: grid;
+        max-width: 600px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+    
