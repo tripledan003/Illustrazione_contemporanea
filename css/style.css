@@ -318,10 +318,6 @@ section.title-sliding-cards {
 section.home-sliding-cards {
     margin: auto;
     max-width: 1150px;
-    font-size: 20px;
-    font-family: "Noto Serif";
-    font-weight: normal;
-    gap: 50px;
 }
 
 section.home-sliding-cards div.card-container {
