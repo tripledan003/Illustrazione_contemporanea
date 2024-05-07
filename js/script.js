@@ -1,6 +1,6 @@
 var swiper = new Swiper(".home-sliding-cards", {
-  slidesPerView: 1,
-  spaceBetween: 30,
+  slidesPerView: 3,
+  spaceBetween: 50,
   centerSlide: true,
   grabCursor: true,
   pagination: {
