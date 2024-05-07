@@ -63,7 +63,8 @@ section.data-container {
     margin-left: auto;
     padding: 10px 0px 10px 20px;
     position: sticky;
-    top: 100px;
+    top: 50px;
+    z-index: 1000;
 }
 
 section.data-container h1 {
@@ -160,6 +161,7 @@ section.heroblue {
     margin: auto;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 30px;
 }
 
 section.herored {
@@ -171,6 +173,7 @@ section.herored {
     margin: auto;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 30px;
 }
 
 section.herogreen {
@@ -182,6 +185,7 @@ section.herogreen {
     margin: auto;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 30px;
 }
 
 section.heroyellow {
@@ -193,6 +197,7 @@ section.heroyellow {
     margin: auto;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 30px;
 }
 
 section.titoloparagrafo {
@@ -201,6 +206,7 @@ section.titoloparagrafo {
     font-family: "Noto Serif";
     font-size: 22px;
     color: #573CFF;
+    padding-left: 30px;
 }
 
 section.paragrafo {
@@ -220,6 +226,7 @@ section.title-art-sliding-cards {
     font-size: 22px;
     color: #FE4444;
     padding-top: 100px;
+    padding-left: 30px;
 }
 
 section.artisti {
@@ -260,6 +267,7 @@ section.title-info-mostra {
     font-size: 22px;
     color: #10E458;
     padding-top: 100px;
+    padding-left: 30px;
 }
 
 section.info-mostra {
@@ -289,6 +297,7 @@ section.title-maps {
     font-family: "Noto Serif";
     font-size: 22px;
     color: #FFE713;
+    padding-left: 30px;
 }
 
 section.maps {
