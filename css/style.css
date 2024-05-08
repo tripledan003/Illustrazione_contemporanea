@@ -667,6 +667,7 @@ html,body {
 
     footer.home {
         font-size: 15px;
+        padding-right: 60px;
     }
 
     footer.home nav {
@@ -679,6 +680,7 @@ html,body {
 
     footer.artisti {
         font-size: 15px;
+        padding-right: 60px;
     }
 
     footer.artisti nav {
@@ -691,6 +693,7 @@ html,body {
 
     footer.mostra {
         font-size: 15px;
+        padding-right: 60px;
     }
 
     footer.mostra nav {
@@ -703,6 +706,7 @@ html,body {
 
     footer.info {
         font-size: 15px;
+        padding-right: 60px;
     }
 
     footer.info nav {
