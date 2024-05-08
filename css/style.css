@@ -620,6 +620,11 @@ html,body {
         bottom: 14px;
     }
 
+    header.home nav ul {
+        gap: 30px;
+    }
+
+
     header.artisti {
         font-size: 15px;
     }
@@ -627,6 +632,10 @@ html,body {
     header.artisti nav ul li {
         position: relative;
         bottom: 14px;
+    }
+
+    header.artisti nav ul {
+        gap: 30px;
     }
 
     header.mostra {
@@ -638,6 +647,10 @@ html,body {
         bottom: 14px;
     }
 
+    header.mostra nav ul {
+        gap: 30px;
+    }
+
     header.info {
         font-size: 15px;
     }
@@ -647,29 +660,44 @@ html,body {
         bottom: 14px;
     }
 
+    header.info nav ul {
+        gap: 30px;
+    }
+
     /*Footer*/
 
     footer.home {
         font-size: 15px;
-        gap: 10px;
     }
+
+    footer.home nav ul {
+        gap: 30px;
+    }
+
 
     footer.artisti {
         font-size: 15px;
-        gap: 10px;
+    }
+
+    footer.artisti nav ul {
+        gap: 30px;
     }
 
     footer.mostra {
         font-size: 15px;
-        gap: 10px;
+    }
+
+    footer.mostra nav ul {
+        gap: 30px;
     }
 
     footer.info {
         font-size: 15px;
-        gap: 10px;
     }
 
-    
+    footer.info nav ul {
+        gap: 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
