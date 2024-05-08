@@ -518,7 +518,7 @@ html,body {
 /* Homepage */
 
     section.heroblue {
-        font-size: 28px;
+        font-size: 26px;
         padding-left: 30px;
     }
 
@@ -548,7 +548,7 @@ html,body {
 /* Artisti */
 
     section.herored {
-        font-size: 28px;
+        font-size: 26px;
         padding: 30px;
     }
  
@@ -569,6 +569,13 @@ html,body {
         grid-template-columns: repeat(2,1fr);
     }
 
+    /*Mostra*/
+
+    section.herogreen {
+        padding-left: 30px;
+        font-size: 26px;
+    }
+
     section.inaugurazione {
         padding: 30px;
         right: 0px;
@@ -587,6 +594,19 @@ html,body {
     section.info-mostra div.image-container {
         padding-top: 300px;
         margin-left: auto;
+    }
+
+    /*Info utili*/
+
+    section.heroyellow {
+        padding-left: 30px;
+        font-size: 26px;
+    }
+
+    section.laboratorio-creativo {
+        padding: 30px;
+        right: 0px;
+        font-size: 16px;
     }
 
     /*Header*/
