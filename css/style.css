@@ -589,6 +589,8 @@ html,body {
         margin-left: auto;
     }
 
+    /*Header*/
+
     header.home {
         font-size: 15px;
     }
@@ -624,6 +626,30 @@ html,body {
         position: relative;
         bottom: 14px;
     }
+
+    /*Footer*/
+
+    footer.home {
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    footer.artisti {
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    footer.mostra {
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    footer.info {
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    
 }
 
 @media screen and (max-width: 600px) {
