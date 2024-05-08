@@ -588,6 +588,42 @@ html,body {
         padding-top: 300px;
         margin-left: auto;
     }
+
+    header.home {
+        font-size: 15px;
+    }
+
+    header.home nav ul li {
+        position: relative;
+        bottom: 14px;
+    }
+
+    header.artisti {
+        font-size: 15px;
+    }
+
+    header.artisti nav ul li {
+        position: relative;
+        bottom: 14px;
+    }
+
+    header.mostra {
+        font-size: 15px;
+    }
+
+    header.mostra nav ul li {
+        position: relative;
+        bottom: 14px;
+    }
+
+    header.info {
+        font-size: 15px;
+    }
+
+    header.info nav ul li {
+        position: relative;
+        bottom: 14px;
+    }
 }
 
 @media screen and (max-width: 600px) {
