@@ -674,7 +674,6 @@ html,body {
         gap: 30px;
     }
 
-
     footer.artisti {
         font-size: 15px;
     }
@@ -698,13 +697,28 @@ html,body {
     footer.info nav ul {
         gap: 30px;
     }
+
+    /*Slider*/
+
+    section.home-sliding-cards {
+        max-width: 800px;
+    }
+
+    section.home-sliding-cards div.card-container div.card {
+        width: 250px;
+    }
+
+    section.home-sliding-cards div.card-container {
+        gap: 150px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
 
     section.art-sliding-cards div.card-container {
         display: grid;
-        max-width: 600px;
+        max-width: 1500px;
         grid-template-columns: repeat(1,1fr);
     }
 }
