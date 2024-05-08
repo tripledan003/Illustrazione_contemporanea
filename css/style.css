@@ -460,7 +460,6 @@ footer.home {
     margin: auto;
     gap: 64px;
     padding-left: 30px;
-    padding-right: 30px;
 }
 
 footer.artisti {
@@ -474,7 +473,6 @@ footer.artisti {
     margin: auto;
     gap: 64px;
     padding-left: 30px;
-    padding-right: 30px;
 }
 
 footer.mostra {
@@ -488,7 +486,6 @@ footer.mostra {
     margin: auto;
     gap: 64px;
     padding-left: 30px;
-    padding-right: 30px;
 }
 
 footer.info {
@@ -501,8 +498,7 @@ footer.info {
     max-width: auto;
     margin: auto;
     gap: 64px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
 }
 
 html,body {
@@ -670,32 +666,52 @@ html,body {
         font-size: 15px;
     }
 
+    footer.home nav {
+        margin: auto;
+    }
+
     footer.home nav ul {
         gap: 30px;
+        padding-right: 30px;
     }
 
     footer.artisti {
         font-size: 15px;
     }
 
+    footer.artisti nav {
+        margin: auto;
+    }
+
     footer.artisti nav ul {
         gap: 30px;
+        padding-right: 30px;
     }
 
     footer.mostra {
         font-size: 15px;
     }
 
+    footer.mostra nav {
+        margin: auto;
+    }
+
     footer.mostra nav ul {
         gap: 30px;
+        padding-right: 30px;
     }
 
     footer.info {
         font-size: 15px;
     }
 
+    footer.info nav {
+        margin: auto;
+    }
+
     footer.info nav ul {
         gap: 30px;
+        padding-right: 30px;
     }
 
     /*Slider*/
